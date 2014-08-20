@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Witget Font Awesome 4.1 para Adobe Muse 2014
+Creador: Lenin Peña / http://twitter.com/leninalbertop
+Version del Widget: 1.0.1 
+-->
+<HTMLWidget name="Font Awesome 4.1 / Direccionales" formatNumber="2" localization="none" creator="Lenin Peña" isResizable="true" defaultWidth="32" defaultHeight="32" termsText="Gracias por usar el Widget Font Awesome 4.1. Este Widget se ofrece de forma gratuita con licencia Creative Commons Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0). Queda terminantemente prohibido el uso comercial del mismo. Si desea comunicarse conmigo por favor visite mi perfil en Twitter @leninalbertop.">
+	<parameters>
+		<separator/>
+		<list name="icono" defaultValue="angle-double-down" label="Seleccione un icono">
+		    <value name="angle-double-down" label="Ángulo doble abajo"/>
+		    <value name="angle-double-up" label="Ángulo doble arriba"/>
+		    <value name="angle-double-right" label="Ángulo doble derecha"/>
+		    <value name="angle-double-left" label="Ángulo doble izquierda"/>
+		    <value name="angle-down" label="Ángulo abajo"/>
+		    <value name="angle-up" label="Ángulo arriba"/>
+		    <value name="angle-right" label="Ángulo derecha"/>
+		    <value name="angle-left" label="Ángulo izquierda"/>
+		    <value name="arrow-circle-down" label="Flecha círculo abajo"/>
+		    <value name="arrow-circle-up" label="Flecha círculo arriba"/>
+		    <value name="arrow-circle-right" label="Flecha círculo derecha"/>
+		    <value name="arrow-circle-left" label="Flecha círculo izquierda"/>
+		   	<value name="arrow-circle-o-down" label="Flecha círculo abajo 2"/>
+		    <value name="arrow-circle-o-up" label="Flecha círculo arriba 2"/>
+		    <value name="arrow-circle-o-right" label="Flecha círculo derecha 2"/>
+		    <value name="arrow-circle-o-left" label="Flecha círculo izquierda 2"/>
+		    <value name="arrow-down" label="Flecha abajo"/>
+		    <value name="arrow-up" label="Flecha arriba"/>
+		    <value name="arrow-right" label="Flecha derecha"/>
+		    <value name="arrow-left" label="Flecha izquierda"/>
+		    <value name="arrows" label="Flechas en cruz"/>
+		    <value name="arrows-alt" label="Flechas expandir"/>
+		    <value name="arrows-h" label="Flechas horizontal"/>
+		    <value name="arrows-v" label="Flechas vertical"/>
+		    <value name="caret-down" label="Intercalación abajo"/>
+		    <value name="caret-up" label="Intercalación arriba"/>
+		    <value name="caret-right" label="Intercalación derecha"/>
+		    <value name="caret-left" label="Intercalación izquierda"/>
+		    <value name="caret-square-o-down" label="Intercalación bold arriba"/>
+		    <value name="caret-square-o-up" label="Intercalación bold abajo"/>
+		    <value name="caret-square-o-right" label="Intercalación bold derecha"/>
+		    <value name="caret-square-o-left" label="Intercalación bold izquierda"/>
+		    <value name="chevron-circle-down" label="Chevron círculo abajo"/>
+		    <value name="chevron-circle-up" label="Chevron círculo arriba"/>
+		    <value name="chevron-circle-right" label="Chevron círculo derecha"/>
+		    <value name="chevron-circle-left" label="Chevron círculo izquierda"/>
+		    <value name="chevron-down" label="Chevron abajo"/>
+		    <value name="chevron-up" label="Chevron arriba"/>
+		    <value name="chevron-right" label="Chevron derecha"/>
+		    <value name="chevron-left" label="Chevron izquierda"/>
+		    <value name="hand-o-down" label="Mano abajo"/>
+		    <value name="hand-o-up" label="Mano arriba"/>
+		    <value name="hand-o-right" label="Mano derecha"/>
+		    <value name="hand-o-left" label="Mano izquierda"/>
+		    <value name="long-arrow-down" label="Flecha larga abajo"/>
+		    <value name="long-arrow-up" label="Flecha larga arriba"/>
+		    <value name="long-arrow-right" label="Flecha larga derecha"/>
+		    <value name="long-arrow-left" label="Flecha larga izquierda"/>
+		</list>
+		<list name="tamaño" defaultValue="fa-3x" label="Seleccione el tamaño">
+		    <value name="fa-lg" label="Lg"/>
+		    <value name="fa-2x" label="2X"/>
+		    <value name="fa-3x" label="3X"/>
+		    <value name="fa-4x" label="4X"/>
+		    <value name="fa-5x" label="5X"/>
+		</list>
+		<separator/>
+		<info label="Haga clic sobre este texto si desea ponerse en contacto con el autor" linkURL="http://www.twitter.com/leninalbertop"/>
+		<separator/>
+	</parameters>
+	
+	<headHTML>
+<![CDATA[
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+]]>
+	</headHTML>
+	
+	<pageItemHTML>
+<![CDATA[
+	<center><i class="fa fa-{param_icono} {param_tamaño}"></i></center>
+]]>
+	</pageItemHTML>
+	
+</HTMLWidget>

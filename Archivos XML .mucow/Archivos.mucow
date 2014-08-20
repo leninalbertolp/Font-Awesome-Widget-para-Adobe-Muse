@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Witget Font Awesome 4.1 para Adobe Muse 2014
+Creador: Lenin Peña - http://twitter.com/leninalbertop
+Version del Widget: 1.0.1 
+-->
+<HTMLWidget name="Font Awesome 4.1 / Archivos" formatNumber="2" localization="none" creator="Lenin Peña" isResizable="true" defaultWidth="32" defaultHeight="32" termsText="Gracias por usar el Widget Font Awesome 4.1. Este Widget se ofrece de forma gratuita con licencia Creative Commons Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0). Queda terminantemente prohibido el uso comercial del mismo. Si desea comunicarse conmigo por favor visite mi perfil en Twitter @leninalbertop.">
+	<parameters>
+		<separator/>
+		<list name="icono" defaultValue="file-image-o" label="Seleccione un icono">
+		    <value name="file" label="Archivo"/>
+		    <value name="file-o" label="Archivo 2"/>
+		    <value name="file-text" label="Texto"/>
+		    <value name="file-text-o" label="Texto 2"/>
+		    <value name="file-code-o" label="Código"/>
+		    <value name="file-audio-o" label="Audio"/>
+		    <value name="file-video-o" label="Video"/>
+		    <value name="file-image-o" label="Imagen"/>
+		    <value name="file-word-o" label="Word"/>
+		    <value name="file-excel-o" label="Excel"/>
+		    <value name="file-powerpoint-o" label="Powerpoint"/>
+		    <value name="file-pdf-o" label="Pdf"/>
+		    <value name="file-zip-o" label="Zip"/>
+		</list>
+		<list name="tamaño" defaultValue="fa-3x" label="Seleccione el tamaño">
+		    <value name="fa-lg" label="Lg"/>
+		    <value name="fa-2x" label="2X"/>
+		    <value name="fa-3x" label="3X"/>
+		    <value name="fa-4x" label="4X"/>
+		    <value name="fa-5x" label="5X"/>
+		</list>
+		<separator/>
+		<info label="Haga clic sobre este texto si desea ponerse en contacto con el autor" linkURL="http://www.twitter.com/leninalbertop"/>
+		<separator/>
+	</parameters>
+	
+	<headHTML>
+<![CDATA[
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+]]>
+	</headHTML>
+	
+	<pageItemHTML>
+<![CDATA[
+	<center><i class="fa fa-{param_icono} {param_tamaño}"></i></center>
+]]>
+	</pageItemHTML>
+	
+</HTMLWidget>

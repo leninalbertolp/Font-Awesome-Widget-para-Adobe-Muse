@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Witget Font Awesome 4.1 para Adobe Muse 2014
+Creador: Lenin Peña / http://twitter.com/leninalbertop
+Version del Widget: 1.0.1 
+-->
+<HTMLWidget name="Font Awesome 4.1 / Marcas Comerciales" formatNumber="2" localization="none" creator="Lenin Peña" isResizable="true" defaultWidth="32" defaultHeight="32" termsText="Gracias por usar el Widget Font Awesome 4.1. Este Widget se ofrece de forma gratuita con licencia Creative Commons Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0). Queda terminantemente prohibido el uso comercial del mismo. Si desea comunicarse conmigo por favor visite mi perfil en Twitter @leninalbertop.">
+	<parameters>
+		<separator/>
+		<list name="icono" defaultValue="adn" label="Seleccione un icono">
+		    <value name="adn" label="Adn"/>
+		    <value name="android" label="Android"/>
+		    <value name="apple" label="Apple"/>
+		    <value name="behance" label="Behance"/>
+		    <value name="behance-square" label="Behance 2"/>
+		    <value name="bitbucket" label="Bitbucket"/>
+		    <value name="bitbucket-square" label="Bitbucket 2"/>
+		    <value name="btc" label="Btc"/>
+		    <value name="codepen" label="Codepen"/>
+		    <value name="css3" label="Css3"/>
+		    <value name="delicious" label="Delicious"/>
+		    <value name="deviantart" label="Deviantart"/>
+		    <value name="digg" label="Digg"/>
+		    <value name="dribbble" label="Dribbble"/>
+		    <value name="dropbox" label="Dropbox"/>
+		    <value name="drupal" label="Drupal"/>
+		    <value name="empire" label="Empire"/>
+		    <value name="facebook" label="Facebook"/>
+		    <value name="facebook-square" label="Facebook 2"/>
+		    <value name="flickr" label="Flickr"/>
+		    <value name="foursquare" label="Foursquare"/>
+		    <value name="git" label="Git"/>
+		    <value name="git-square" label="Git 2"/>
+		    <value name="github" label="Github"/>
+		    <value name="github-alt" label="Github 2"/>
+		    <value name="github-square" label="Github 3"/>
+		    <value name="gittip" label="Gittip"/>
+		    <value name="google" label="Google"/>
+		    <value name="google-plus" label="Google plus"/>
+		    <value name="google-plus-square" label="Google plus 2"/>
+		    <value name="hacker-news" label="Hacker news"/>
+		    <value name="html5" label="Html5"/>
+		    <value name="instagram" label="Instagram"/>
+		    <value name="joomla" label="Joomla"/>
+		    <value name="jsfiddle" label="Jsfiddle"/>
+		    <value name="linkedin" label="Linkedin"/>
+		    <value name="linkedin-square" label="Linkedin 2"/>
+		    <value name="linux" label="Linux"/>
+		    <value name="maxcdn" label="Maxcdn"/>
+		    <value name="openid" label="Openid"/>
+		    <value name="pagelines" label="Pagelines"/>
+		    <value name="pied-piper" label="Pied piper"/>
+		    <value name="pied-piper-alt" label="Pied piper 2"/>
+		    <value name="pinterest" label="Pinterest"/>
+		    <value name="pinterest-square" label="Pinterest 2"/>
+		    <value name="qq" label="Qq"/>
+		    <value name="rabel" label="Rabel"/>
+		    <value name="reddit" label="Reddit"/>
+		    <value name="reddit-square" label="Reddit 2"/>
+		    <value name="renren" label="Renren"/>
+		    <value name="share-alt" label="Share alt"/>
+		    <value name="share-alt-square" label="Share alt 2"/>
+		    <value name="skype" label="Skype"/>
+		    <value name="slack" label="Slack"/>
+		    <value name="soundcloud" label="Soundcloud"/>
+		    <value name="spotify" label="Spotify"/>
+		    <value name="stack-exchange" label="Stack exchange"/>
+		    <value name="stack-overflow" label="Stack overflow"/>
+		    <value name="steam" label="Steam"/>
+		    <value name="steam-square" label="Steam 2"/>
+		    <value name="stumbleupon" label="Stumbleupon"/>
+		    <value name="stumbleupon-circle" label="Stumbleupon 2"/>
+		    <value name="tencent-weibo" label="Tencent weibo"/>
+		    <value name="trello" label="Trello"/>
+		    <value name="tumblr" label="Tumblr"/>
+		    <value name="tumblr-square" label="Tumblr 2"/>
+		    <value name="twitter" label="Twitter"/>
+		    <value name="twitter-square" label="Twitter 2"/>
+		    <value name="vimeo-square" label="Vimeo"/>
+		    <value name="vine" label="Vine"/>
+		    <value name="vk" label="Vk"/>
+		    <value name="wechat" label="Wechat"/>
+		    <value name="weibo" label="Weibo"/>
+		    <value name="windows" label="Windows"/>
+		    <value name="wordpress" label="Wordpress"/>
+		    <value name="xing" label="Xing"/>
+		    <value name="xing-square" label="Xing 2"/>
+		    <value name="yahoo" label="Yahoo"/>
+		    <value name="youtube" label="Youtube"/>
+		    <value name="youtube-play" label="Youtube 2"/>
+		    <value name="youtube-square" label="Youtube 3"/>
+		</list>
+		<list name="tamaño" defaultValue="fa-3x" label="Seleccione el tamaño">
+		    <value name="fa-lg" label="Lg"/>
+		    <value name="fa-2x" label="2X"/>
+		    <value name="fa-3x" label="3X"/>
+		    <value name="fa-4x" label="4X"/>
+		    <value name="fa-5x" label="5X"/>
+		</list>
+		<separator/>
+		<info label="Haga clic sobre este texto si desea ponerse en contacto con el autor" linkURL="http://www.twitter.com/leninalbertop"/>
+		<separator/>
+	</parameters>
+	
+	<headHTML>
+<![CDATA[
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+]]>
+	</headHTML>
+	
+	<pageItemHTML>
+<![CDATA[
+	<center><i class="fa fa-{param_icono} {param_tamaño}"></i></center>
+]]>
+	</pageItemHTML>
+	
+</HTMLWidget>

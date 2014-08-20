@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Witget Font Awesome 4.1 para Adobe Muse 2014
+Creador: Lenin Peña - http://twitter.com/leninalbertop
+Version del Widget: 1.0.1 
+-->
+<HTMLWidget name="Font Awesome 4.1 / Aplicaciones Web" formatNumber="2" localization="none" creator="Lenin Peña" isResizable="true" defaultWidth="32" defaultHeight="32" termsText="Gracias por usar el Widget Font Awesome 4.1. Este Widget se ofrece de forma gratuita con licencia Creative Commons Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0). Queda terminantemente prohibido el uso comercial del mismo. Si desea comunicarse conmigo por favor visite mi perfil en Twitter @leninalbertop.">
+	<parameters>
+		<separator/>
+		<list name="icono" defaultValue="adjust" label="Seleccione un icono">
+		    <value name="adjust" label="Ajustar"/>
+		    <value name="anchor" label="Ancla"/>
+		    <value name="archive" label="Archivo"/>
+		    <value name="arrows" label="Flechas"/>
+		    <value name="arrows-h" label="Flechas Horizontal"/>
+		    <value name="arrows-v" label="Flechas Vertical"/>
+		    <value name="asterisk" label="Asterisco"/>
+		    <value name="automobile" label="Automovil-Carro"/>
+		    <value name="ban" label="Prohibición"/>
+		    <value name="bank" label="Banco-Institución"/>
+		    <value name="bar-chart-o" label="Gráfico de Barras "/>
+		    <value name="barcode" label="Código de Barras"/>
+		    <value name="bars" label="Barras"/>
+		    <value name="beer" label="Cerveza"/>
+		    <value name="bell" label="Campana"/>
+		    <value name="bell-o" label="Campana 2"/>
+		    <value name="bolt" label="Rayo"/>
+		    <value name="bomb" label="Bomba"/>
+		    <value name="book" label="Libro"/>
+		    <value name="bookmark" label="Marcador"/>
+		    <value name="bookmark-o" label="Marcador 2"/>
+		    <value name="briefcase" label="Maletín"/>
+		    <value name="bug" label="Error de Progamación"/>
+		    <value name="building" label="Edificio"/>
+		    <value name="building-o" label="Edificio 2"/>
+		    <value name="bullhorn" label="Megáfono"/>
+		    <value name="bullseye" label="Tiro al Blanco"/>
+		    <value name="cab" label="Taxi"/>
+		    <value name="calendar" label="Calendario"/>
+		    <value name="calendar-o" label="Calendario 2"/>
+		    <value name="camera" label="Cámara"/>
+		    <value name="camera-retro" label="Cámara Retro"/>
+		    <value name="certificate" label="Certificado"/>
+		    <value name="check" label="Aprobado"/>
+		    <value name="child" label="Niño"/>
+		    <value name="circle-thin" label="Círculo Fino"/>
+		    <value name="clock-o" label="Reloj"/>
+		    <value name="cloud" label="Nube"/>
+		    <value name="cloud-download" label="Descagar de la Nube"/>
+		    <value name="cloud-upload" label="Subir a la Nube"/>
+		    <value name="code" label="Código de Programción"/>
+		    <value name="code-fork" label="Código Tenedor"/>
+		    <value name="coffee" label="Café"/>
+		    <value name="cogs" label="Engranajes"/>
+		    <value name="comment" label="Comentario"/>
+		    <value name="comment-o" label="Comentario 2"/>
+		    <value name="comments" label="Comentarios"/>
+		    <value name="comments-o" label="Comentarios 2"/>
+		    <value name="compass" label="Brújula"/>
+		    <value name="credit-card" label="Tarjeta de Crédito"/>
+		    <value name="crop" label="Cultivo"/>
+			<value name="crosshairs" label="Punto de Mira"/>
+			<value name="cube" label="Cubo"/>
+			<value name="cubes" label="Cubos"/>
+			<value name="cutlery" label="Cubiertos"/>
+			<value name="dashboard" label="Tablero de Instumentos"/>
+			<value name="database" label="Base de Datos"/>
+			<value name="desktop" label="Escritorio"/>
+			<value name="download" label="Descagar"/>
+			<value name="edit" label="Editar"/>
+			<value name="ellipsis-h" label="Puntos Suspensivos Horizontal"/>
+			<value name="ellipsis-v" label="Puntos Suspensivos Vertical"/>
+			<value name="envelope" label="Sobre"/>
+			<value name="envelope-o" label="Sobre 2"/>
+			<value name="envelope-square" label="Sobre 3"/>
+			<value name="exchange" label="Intercambiar"/>
+			<value name="exclamation" label="Exclamación"/>
+			<value name="exclamation-circle" label="Círculo de Exclamación"/>
+			<value name="exclamation-triangle" label="Triángulo de Exclamación"/>
+			<value name="external-link" label="Enlace Externo"/>
+			<value name="external-link-square" label="Enlace Externo 2"/>
+			<value name="eye" label="Ojo"/>
+			<value name="eye-slash" label="Ojo Cerrado"/>
+			<value name="fax" label="Fax"/>
+			<value name="female" label="Mujer"/>
+			<value name="fighter-jet" label="Avión de Combate"/>
+			<value name="film" label="Película"/>
+			<value name="filter" label="Filtro"/>
+			<value name="fire" label="Fuego"/>
+			<value name="fire-extinguisher" label="Extintor de Fuego"/>
+			<value name="flag" label="Bandera"/>
+			<value name="flag-o" label="Bandera 2"/>
+			<value name="flag-checkered" label="Bandera a Cuadros"/>
+			<value name="flask" label="Frasco"/>
+			<value name="folder" label="Carpeta"/>
+			<value name="folder-o" label="Carpeta 2"/>
+			<value name="folder-open" label="Carpeta Abierta"/>
+			<value name="folder-open-o" label="Carpeta Abierta 2"/>
+			<value name="frown-o" label="Ceño Fruncido"/>
+			<value name="gamepad" label="Control de Juego"/>
+			<value name="gavel" label="Martillo"/>
+			<value name="gift" label="Regalo"/>
+			<value name="glass" label="Copa"/>
+			<value name="globe" label="Mundo"/>
+			<value name="graduation-cap" label="Birrete"/>
+			<value name="group" label="Grupo"/>
+			<value name="hdd-o" label="Disco Duro"/>
+			<value name="headphone" label="Auriculares"/>
+			<value name="heart" label="Corazón"/>
+			<value name="heart-o" label="Corazón 2"/>
+			<value name="history" label="Historial"/>
+			<value name="home" label="Inicio"/>
+			<value name="image" label="Imagen"/>
+			<value name="inbox" label="Bandeja de Entrada"/>
+			<value name="info" label="Información"/>
+			<value name="info-circle" label="Información 2"/>
+			<value name="key" label="Llave"/>
+			<value name="keyboard-o" label="Teclado"/>
+			<value name="language" label="Idioma"/>
+			<value name="laptop" label="Portátil"/>
+			<value name="leaf" label="Hoja"/>
+			<value name="lemon-o" label="Limón"/>
+			<value name="level-down" label="Bajar de Nivel"/>
+			<value name="leve-up" label="Subir de Nivel"/>
+			<value name="life-saver" label="Salva Vida"/>
+			<value name="lightbulb-o" label="Bombilla"/>
+			<value name="location-arrow" label="Puntero"/>
+			<value name="lock" label="Bloquear"/>
+			<value name="magic" label="Barita Mágica"/>
+			<value name="magnet" label="Imán"/>
+			<value name="mail-forward" label="Enviar Email"/>
+			<value name="mail-reply" label="Responder Email"/>
+			<value name="mail-reply-all" label="Reenviar Email"/>
+			<value name="male" label="Hombre"/>
+			<value name="map-marker" label="Indicador de Mapa"/>
+			<value name="meh-o" label="Ceño-Expreción"/>
+			<value name="microphone" label="Micrófono"/>
+			<value name="microphone-slash" label="Micrófono Apagado"/>
+			<value name="minus" label="Signo Negativo"/>
+			<value name="minus-circle" label="Signo Negativo Circular"/>
+			<value name="mobile" label="Teléfono móvil"/>
+			<value name="moon-o" label="Luna"/>
+			<value name="music" label="Nota Musical"/>
+			<value name="navicon" label="Menú Móvil"/>
+			<value name="paper-plane" label="Avión de Papel"/>
+			<value name="paper-plane-o" label="Avión de Papel 2"/>
+			<value name="paw" label="Huella Felina"/>
+			<value name="pencil" label="Lápiz"/>
+			<value name="pencil-square" label="Lápiz 2"/>
+			<value name="phone" label="Auricular"/>
+			<value name="phone-square" label="Auricular 2"/>
+			<value name="plane" label="Avión"/>
+			<value name="plus" label="Signo-Más"/>
+			<value name="power-off" label="Apagado"/>
+			<value name="print" label="Imprimir"/>
+			<value name="puzzle-piece" label="Rompecabezas"/>
+			<value name="qrcode" label="Código-Qr"/>
+			<value name="question" label="Pregunta"/>
+			<value name="question-circle" label="Pregunta 2"/>
+			<value name="quote-left" label="Citar-Izquierda"/>
+			<value name="quote-right" label="Citar-Derecha"/>
+			<value name="ramdom" label="Al Azar"/>
+			<value name="recycle" label="Reciclar"/>
+			<value name="retweet" label="Retweet"/>
+			<value name="road" label="Carretera"/>
+			<value name="rocket" label="Cohete"/>
+			<value name="rss" label="Rss"/>
+			<value name="rss-square" label="Rss 2"/>
+			<value name="search" label="Buscar"/>
+			<value name="search-minus" label="Buscar-Menos"/>
+			<value name="search-plus" label="Buscar-Más"/>
+			<value name="share-square" label="Compartir"/>
+			<value name="share-square-o" label="Compartir 2"/>
+			<value name="shield" label="Escudo"/>
+			<value name="shopping-cart" label="Carro de Compra"/>
+			<value name="sign-in" label="Iniciar Sesión"/>
+			<value name="sign-out" label="Cerrar Sesión"/>
+			<value name="signal" label="Señal"/>
+			<value name="sitemap" label="Mapa del Sitio"/>
+			<value name="sliders" label="Equalizador"/>
+			<value name="smile-o" label="Sonrrisa"/>
+			<value name="sort" label="Ordenar"/>
+			<value name="sort-asc" label="Orden Ascendiente"/>
+			<value name="sort-desc" label="Orden Descendiente"/>
+			<value name="sort-alpha-asc" label="Ordenar Fuente Ascendiente"/>
+			<value name="sort-alpha-desc" label="Ordenar Fuente Descendiente"/>
+			<value name="sort-amount-asc" label="Ordenar Cantidad Ascendiente"/>
+			<value name="sort-amount-desc" label="Ordenar Cantidad Descendiente"/>
+			<value name="sort-numeric-asc" label="Orden Numérico Ascendiente"/>
+			<value name="sort-numeric-desc" label="Orden Numérico Descendiente"/>
+			<value name="space-shuttle" label="Transbordador Espacial"/>
+			<value name="spoon" label="Cuchara"/>
+			<value name="star" label="Estrella"/>
+			<value name="star-o" label="Estrella 2"/>
+			<value name="star-half" label="Media Estrella"/>
+			<value name="star-half-o" label="Media Estrella 2"/>
+			<value name="suitcase" label="Maleta"/>
+			<value name="sun-o" label="Sol"/>
+			<value name="tablet" label="Tableta"/>
+			<value name="tag" label="Etiqueta"/>
+			<value name="tags" label="Etiquetas"/>
+			<value name="tasks" label="Tareas"/>
+			<value name="terminal" label="Terminal-Cmd"/>
+			<value name="thumb-tack" label="Chincheta"/>
+			<value name="thumbs-down" label="Pulgar Abajo"/>
+			<value name="thumbs-o-down" label="Pulgar Abajo 2"/>
+			<value name="thumbs-o-up" label="Pulgar Arriba"/>
+			<value name="thumbs-up" label="Pulgar Arriba 2"/>
+			<value name="ticket" label="Ticket"/>
+			<value name="times" label="Equis"/>
+			<value name="times-circle" label="Equis 2"/>
+			<value name="times-circle-o" label="Equis 3"/>
+			<value name="tint" label="Tinta"/>
+			<value name="trash-o" label="Papelera"/>
+			<value name="tree" label="Árbol"/>
+			<value name="trophy" label="Trofeo"/>
+			<value name="truck" label="Camión"/>
+			<value name="umbrella" label="Paraguas"/>
+			<value name="unlock" label="Desbloquear"/>
+			<value name="unlock-alt" label="Desbloquear 2"/>
+			<value name="unpload" label="Cargar"/>
+			<value name="user" label="Usuario"/>
+			<value name="video-camera" label="Cámara de Video"/>
+			<value name="volume-down" label="Volumen Bajo"/>
+			<value name="volume-up" label="Volumen Alto"/>
+			<value name="volume-off" label="Volumen Apagado"/>
+			<value name="wrench" label="Llave Inlgesa"/>
+		</list>
+		<list name="tamaño" defaultValue="fa-3x" label="Seleccione el tamaño">
+		    <value name="fa-lg" label="Lg"/>
+		    <value name="fa-2x" label="2X"/>
+		    <value name="fa-3x" label="3X"/>
+		    <value name="fa-4x" label="4X"/>
+		    <value name="fa-5x" label="5X"/>
+		</list>
+		<separator/>
+		<info label="Haga clic sobre este texto si desea ponerse en contacto con el autor" linkURL="http://www.twitter.com/leninalbertop"/>
+		<separator/>
+	</parameters>
+	
+	<headHTML>
+<![CDATA[
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+]]>
+	</headHTML>
+	
+	<pageItemHTML>
+<![CDATA[
+	<center><i class="fa fa-{param_icono} {param_tamaño}"></i></center>
+]]>
+	</pageItemHTML>
+	
+</HTMLWidget>
