@@ -1,4 +1,4 @@
 FontAwesome-4.1-AdobeMuse
 =========================
 
-esta repo es solo la pagina web del proyecto
+Esto solo el repositorio de la pagina web del proyecto http://leninalbertolp.github.io/FontAwesome-4.1-AdobeMuse/
