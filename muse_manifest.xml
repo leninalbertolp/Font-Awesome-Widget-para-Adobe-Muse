@@ -1,23 +1,17 @@
-<manifest alg="2" build="375" opt="true" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1408541746168">
+<manifest alg="2" build="6" opt="true" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1411762116909">
   <folder name="css">
-    <file name="site_global.css" crc="276554232"/>
-    <file name="master_a-p_g_-maestra.css" crc="4057031705" ref="index"/>
-    <file name="index.css" crc="23482600" ref="index"/>
-    <file name="iefonts_index.css" crc="4266456939" ref="index"/>
-  </folder>
-  <folder name="assets">
-    <file name="botoncete.css" crc="78606643" mt="1404296248000"/>
+    <file name="site_global.css" crc="217418204"/>
+    <file name="index.css" crc="246366824" ref="index"/>
+    <file name="iefonts_index.css" crc="4240287068" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="4146222537" ref="index"/>
-    <file name="museutils.js" crc="135030331" ref="index"/>
-    <file name="jquery.watch.js" crc="377079819" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="4021225061" ref="index"/>
+    <file name="museutils.js" crc="4136605575" ref="index"/>
+    <file name="jquery.watch.js" crc="172956391" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="161010171" ref="index"/>
-    <file name="musecc.jpg" crc="4040596008" ref="index"/>
-    <file name="img.jpg" crc="4148961306" ref="index"/>
-    <file name="img3.jpg" crc="4162564371" ref="index"/>
+    <file name="favicon.ico" crc="4094189984" ref="index"/>
+    <file name="img_under-construction.png" crc="419172301" ref="index"/>
   </folder>
-  <file name="index.html" crc="3965388224" mt="1408541623910" redirect="true"/>
+  <file name="index.html" crc="105570117" mt="1411762017178" redirect="true"/>
 </manifest>
