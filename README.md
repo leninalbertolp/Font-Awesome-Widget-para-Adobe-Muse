@@ -5,4 +5,4 @@ Usar Font Awesome en Adobe Muse nunca fue tan fácil, con este Widget usted podr
 
 Este Widget se ofrece de forma gratuita con licencia Creative Commons Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0). Queda terminantemente prohibido el uso comercial del mismo. Si desea comunicarse conmigo por favor visite mi perfil en Twitter @leninalbertop.
 
-Si desea descargar el Widget Barra de Habilidades y utilizarlo en Adobe muse por favor diríjase a la página del repositorio visitando el siguiente link. http://leninalbertolp.github.io/FontAwesome-4.1-AdobeMuse/
+Si desea descargar el Widget Barra de Habilidades y utilizarlo en Adobe muse por favor diríjase a la página del repositorio visitando el siguiente [link](http://www.leninalbertop.com.ve/blog/font-awesome-excelente-widget-para-adobe-muse/).
