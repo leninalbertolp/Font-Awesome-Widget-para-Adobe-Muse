@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Witget Font Awesome 4.4.0 para Adobe Muse
+Creador: Lenin Peña - http://twitter.com/leninalbertop
+Web: www.leninalbertop.com.ve
+-->
+<HTMLWidget name="Font Awesome 4.4.0" formatNumber="2" localization="none" creator="Lenin Peña" isResizable="true" defaultWidth="32" defaultHeight="32" termsText="Gracias por usar el Widget Font Awesome 4.4.0 Este Widget se ofrece de forma gratuita con licencia Creative Commons Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0). Creador: Lenin Peña ** Web: www.leninalbertop.com.ve">
+	<parameters>
+		<separator/>
+		<info label="CATEGORÍA: HAND ICONS"/>
+		<separator/>
+		<info label="CLICK AQUÍ PARA OBTENER REFERENCIA DE LOS ICONOS" linkURL="http://fontawesome.io/icons/"/>
+		<separator/>
+		<list name="icono" defaultValue="hand-lizard-o" label="Seleccione un icono">
+		    <value name="hand-lizard-o" label="hand-lizard-o"/>
+		    <value name="hand-o-down" label="hand-o-down"/>
+		    <value name="hand-o-left" label="hand-o-left"/>
+		    <value name="hand-o-right" label="hand-o-right"/>
+		    <value name="hand-o-up" label="hand-o-up"/>
+		    <value name="hand-paper-o" label="hand-paper-o"/>
+		    <value name="hand-peace-o" label="hand-peace-o"/>
+		    <value name="hand-pointer-o" label="hand-pointer-o"/>
+		    <value name="hand-rock-o" label="hand-rock-o"/>
+		    <value name="hand-scissors-o" label="hand-scissors-o"/>
+		    <value name="hand-spock-o" label="hand-spock-o"/>
+		    <value name="thumbs-down" label="thumbs-down"/>
+		    <value name="thumbs-o-down" label="thumbs-o-down"/>
+		    <value name="thumbs-o-up" label="thumbs-o-up"/>
+		    <value name="thumbs-up" label="thumbs-up"/>
+		</list>
+		<list name="tamaño" defaultValue="fa-3x" label="Seleccione el tamaño">
+		    <value name="fa-lg" label="Lg"/>
+		    <value name="fa-2x" label="2X"/>
+		    <value name="fa-3x" label="3X"/>
+		    <value name="fa-4x" label="4X"/>
+		    <value name="fa-5x" label="5X"/>
+		</list>
+		<separator/>
+		<info label="CLICK AQUÍ PARA DESCARGAR MÁS WIDGETS GRATUITOS" linkURL="http://leninp.ml/1UeMi7w"/>
+		<separator/>
+	</parameters>
+
+	<headHTML>
+	<![CDATA[
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	]]>
+	</headHTML>
+
+	<pageItemHTML>
+	<![CDATA[
+	<i class="fa fa-{param_icono} {param_tamaño}"></i>
+	]]>
+	</pageItemHTML>
+
+</HTMLWidget>

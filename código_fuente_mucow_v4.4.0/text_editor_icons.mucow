@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Witget Font Awesome 4.4.0 para Adobe Muse
+Creador: Lenin Peña - http://twitter.com/leninalbertop
+Web: www.leninalbertop.com.ve
+-->
+<HTMLWidget name="Font Awesome 4.4.0" formatNumber="2" localization="none" creator="Lenin Peña" isResizable="true" defaultWidth="32" defaultHeight="32" termsText="Gracias por usar el Widget Font Awesome 4.4.0 Este Widget se ofrece de forma gratuita con licencia Creative Commons Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0). Creador: Lenin Peña ** Web: www.leninalbertop.com.ve">
+	<parameters>
+		<separator/>
+		<info label="CATEGORÍA: TEXT EDITOR ICONS"/>
+		<separator/>
+		<info label="CLICK AQUÍ PARA OBTENER REFERENCIA DE LOS ICONOS" linkURL="http://fontawesome.io/icons/"/>
+		<separator/>
+		<list name="icono" defaultValue="align-center" label="Seleccione un icono">
+			<value name="align-center" label="align-center"/>
+		   	<value name="align-justify" label="align-justify"/>
+		   	<value name="align-left" label="align-left"/>
+		   	<value name="align-right" label="align-right"/>
+		   	<value name="bold" label="bold"/>
+		   	<value name="chain-broken" label="chain-broken"/>
+		   	<value name="clipboard" label="clipboard"/>
+		   	<value name="columns" label="columns"/>
+		   	<value name="erase" label="erase"/>
+		   	<value name="file" label="file"/>
+		   	<value name="file-o" label="file-o"/>
+		   	<value name="file-text" label="file-text"/>
+		   	<value name="file-text-o" label="file-text-o"/>
+		   	<value name="files-o" label="files-o"/>
+			<value name="floppy-o" label="floppy-o"/>
+			<value name="font" label="font"/>
+			<value name="header" label="header"/>
+			<value name="indent" label="indent"/>
+			<value name="italic" label="italic"/>
+			<value name="link" label="link"/>
+			<value name="list" label="list"/>
+			<value name="list-alt" label="list-alt"/>
+			<value name="list-ol" label="list-ol"/>
+			<value name="list-ul" label="list-ul"/>
+			<value name="outdent" label="outdent"/>
+			<value name="paperclip" label="`paperclip"/>
+			<value name="paragraph" label="paragraph"/>
+			<value name="repeat" label="repeat"/>
+			<value name="scissors" label="scissors"/>
+			<value name="strikethrough" label="strikethrough"/>
+			<value name="subscript" label="subscript"/>
+			<value name="superscript" label="superscript"/>
+			<value name="tablet" label="tablet"/>
+			<value name="text-height" label="text-height"/>
+			<value name="text-width" label="text-width"/>
+			<value name="th" label="th"/>
+			<value name="th-large" label="th-large"/>
+			<value name="th-list" label="th-list"/>
+			<value name="underline" label="underline"/>
+			<value name="undo" label="undo"/>
+		</list>
+		<list name="tamaño" defaultValue="fa-3x" label="Seleccione el tamaño">
+		    <value name="fa-lg" label="Lg"/>
+		    <value name="fa-2x" label="2X"/>
+		    <value name="fa-3x" label="3X"/>
+		    <value name="fa-4x" label="4X"/>
+		    <value name="fa-5x" label="5X"/>
+		</list>
+		<separator/>
+		<info label="CLICK AQUÍ PARA DESCARGAR MÁS WIDGETS GRATUITOS" linkURL="http://leninp.ml/1UeMi7w"/>
+		<separator/>
+	</parameters>
+	
+	<headHTML>
+	<![CDATA[
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	]]>
+	</headHTML>
+	
+	<pageItemHTML>
+	<![CDATA[
+	<i class="fa fa-{param_icono} {param_tamaño}"></i>
+	]]>
+	</pageItemHTML>
+	
+</HTMLWidget>

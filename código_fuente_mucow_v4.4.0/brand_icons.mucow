@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Witget Font Awesome 4.4.0 para Adobe Muse
+Creador: Lenin Peña - http://twitter.com/leninalbertop
+Web: www.leninalbertop.com.ve
+-->
+<HTMLWidget name="Font Awesome 4.4.0" formatNumber="2" localization="none" creator="Lenin Peña" isResizable="true" defaultWidth="32" defaultHeight="32" termsText="Gracias por usar el Widget Font Awesome 4.4.0 Este Widget se ofrece de forma gratuita con licencia Creative Commons Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0). Creador: Lenin Peña ** Web: www.leninalbertop.com.ve">
+	<parameters>
+		<separator/>
+		<info label="CATEGORÍA: BRAND ICONS"/>
+		<separator/>
+		<info label="CLICK AQUÍ PARA OBTENER REFERENCIA DE LOS ICONOS" linkURL="http://fontawesome.io/icons/"/>
+		<separator/>
+		<list name="icono" defaultValue="adn" label="Seleccione un icono">
+			<value name="500px" label="500px"/>
+		    <value name="adn" label="adn"/>
+		    <value name="amazon" label="amazon"/>
+		    <value name="android" label="android"/>
+		    <value name="angellist" label="angellist"/>
+		    <value name="apple" label="apple"/>
+		    <value name="behance" label="behance"/>
+		    <value name="behance-square" label="behance-square"/>
+		    <value name="bitbucket" label="bitbucket"/>
+		    <value name="bitbucket-square" label="bitbucket"/>
+		    <value name="black-tie" label="black-tie"/>
+		    <value name="btc" label="btc"/>
+		    <value name="buysellads" label="buysellads"/>
+		    <value name="cc-amex" label="cc-amex"/>
+		    <value name="cc-diners-club" label="cc-diners-club"/>
+		    <value name="cc-discover" label="cc-discover"/>
+		    <value name="cc-jcb" label="cc-jcb"/>
+		    <value name="cc-mastercard" label="cc-mastercard"/>
+		    <value name="cc-paypal" label="cc-paypal"/>
+		    <value name="cc-stripe" label="cc-stripe"/>
+		    <value name="cc-visa" label="cc-visa"/>
+		    <value name="chrome" label="chrome"/>
+		    <value name="codepen" label="codepen"/>
+		    <value name="connectdevelop" label="connectdevelop"/>
+		    <value name="contao" label="contao"/>
+		    <value name="css3" label="css3"/>
+		    <value name="dashcube" label="dashcube"/>
+		    <value name="delicious" label="delicious"/>
+		    <value name="deviantart" label="deviantart"/>
+		    <value name="digg" label="digg"/>
+		    <value name="dribbble" label="dribbble"/>
+		    <value name="dropbox" label="dropbox"/>
+		    <value name="drupal" label="drupal"/>
+		    <value name="empire" label="empire"/>
+		    <value name="expeditedssl" label="expeditedssl"/>
+		    <value name="facebook" label="facebook"/>
+		    <value name="facebook-official" label="facebook-official"/>
+		    <value name="facebook-square" label="facebook-square"/>
+		    <value name="firefox" label="firefox"/>
+		    <value name="flickr" label="flickr"/>
+		    <value name="fonticons" label="fonticons"/>
+		    <value name="forumbee" label="forumbee"/>
+		    <value name="foursquare" label="foursquare"/>
+		    <value name="get-pocket" label="get-pocket"/>
+		    <value name="gg" label="gg"/>
+		    <value name="gg-circle" label="gg-circle"/>
+		    <value name="git" label="git"/>
+		    <value name="git-square" label="git-square"/>
+		    <value name="github" label="github"/>
+		    <value name="github-alt" label="github-alt"/>
+		    <value name="github-square" label="github-square"/>
+		    <value name="google" label="google"/>
+		    <value name="google-plus" label="google-plus"/>
+		    <value name="google-plus-square" label="google-plus-square"/>
+		    <value name="google-wallet" label="google-wallet"/>
+		    <value name="gratipay" label="gratipay"/>
+		    <value name="hacker-news" label="hacker-news"/>
+		    <value name="houzz" label="houzz"/>
+		    <value name="html5" label="html5"/>
+		    <value name="instagram" label="instagram"/>
+		    <value name="internet-explorer" label="internet-explorer"/>
+		    <value name="ioxhost" labe="ioxhost"/>
+		    <value name="joomla" label="joomla"/>
+		    <value name="jsfiddle" label="jsfiddle"/>
+		    <value name="lastfm" label="Lastfm"/>
+		    <value name="lastfm-square" label="lastfm-square"/>
+		    <value name="leanpub" label="leanpub"/>
+		    <value name="linkedin" label="linkedin"/>
+		    <value name="linkedin-square" label="linkedin-sqaure"/>
+		    <value name="linux" label="linux"/>
+		    <value name="maxcdn" label="maxcdn"/>
+		    <value name="meanpath" label="meanpath"/>
+		    <value name="medium" label="medium"/>
+		    <value name="odnoklassniki" label="odnoklassniki"/>
+		    <value name="odnoklassniki-square" label="odnoklassniki-sqaure"/>
+		    <value name="opencart" label="opencart"/>
+		    <value name="openid" label="openid"/>
+		    <value name="opera" label="opera"/>
+		    <value name="optin-monster" label="optin-monster"/>
+		    <value name="pagelines" label="pagelines"/>
+		    <value name="paypal" label="paypal"/>
+		    <value name="pied-piper" label="pied-piper"/>
+		    <value name="pied-piper-alt" label="pied-piper-alt"/>
+		    <value name="pinterest" label="pinterest"/>
+		    <value name="pinterest-square" label="pinterest-square"/>
+		    <value name="qq" label="qq"/>
+		    <value name="rabel" label="rabel"/>
+		    <value name="reddit" label="reddit"/>
+		    <value name="reddit-square" label="reddit-square"/>
+		    <value name="renren" label="renren"/>
+		    <value name="safari" label="safari"/>
+		    <value name="sellsy" label="sellsy"/>
+		    <value name="share-alt" label="share-alt"/>
+		    <value name="share-alt-square" label="share-alt-square"/>
+		    <value name="shirtsinbulk" label="shirtsinbulk"/>
+		    <value name="simplybuilt" label="simplybuilt"/>
+		    <value name="skyatlas" label="skyatlas"/>
+		    <value name="skype" label="skype"/>
+		    <value name="slack" label="slack"/>
+		    <value name="slideshare" label="slideshare"/>
+		    <value name="soundcloud" label="Soundcloud"/>
+		    <value name="spotify" label="spotify"/>
+		    <value name="stack-exchange" label="stack-exchange"/>
+		    <value name="stack-overflow" label="stack-overflow"/>
+		    <value name="steam" label="steam"/>
+		    <value name="steam-square" label="steam-square"/>
+		    <value name="stumbleupon" label="stumbleupon"/>
+		    <value name="stumbleupon-circle" label="stumbleupon-circle"/>
+		    <value name="tencent-weibo" label="tencent-weibo"/>
+		    <value name="trello" label="trello"/>
+		    <value name="tripadvisor" label="tripadvisor"/>
+		    <value name="tumblr" label="tumblr"/>
+		    <value name="tumblr-square" label="tumblr-square"/>
+		    <value name="twitch" label="twitch"/>
+		    <value name="twitter" label="twitter"/>
+		    <value name="twitter-square" label="twitter-square"/>
+		    <value name="viacoin" label="viacoin"/>
+		    <value name="vimeo" label="vimeo"/>
+		    <value name="vimeo-square" label="vimeo-square"/>
+		    <value name="vine" label="vine"/>
+		    <value name="vk" label="vk"/>
+		    <value name="weibo" label="weibo"/>
+		    <value name="weixin" label="weixin"/>
+		    <value name="whatsapp" label="whatsapp"/>
+		    <value name="wikipedia-w" label="wikipedia-w"/>
+		    <value name="windows" label="windows"/>
+		    <value name="wordpress" label="wordpress"/>
+		    <value name="xing" label="xing"/>
+		    <value name="xing-square" label="xing-square"/>
+		    <value name="y-combinator" label="y-combinator"/>
+		    <value name="yahoo" label="yahoo"/>
+		    <value name="yelp" label="Yyelp"/>
+		    <value name="youtube" label="youtube"/>
+		    <value name="youtube-play" label="youtube-play"/>
+		    <value name="youtube-square" label="youtube-square"/>
+		</list>
+		<list name="tamaño" defaultValue="fa-3x" label="Seleccione el tamaño">
+		    <value name="fa-lg" label="Lg"/>
+		    <value name="fa-2x" label="2X"/>
+		    <value name="fa-3x" label="3X"/>
+		    <value name="fa-4x" label="4X"/>
+		    <value name="fa-5x" label="5X"/>
+		</list>
+		<separator/>
+		<info label="CLICK AQUÍ PARA DESCARGAR MÁS WIDGETS GRATUITOS" linkURL="http://leninp.ml/1UeMi7w"/>
+		<separator/>
+	</parameters>
+	
+	<headHTML>
+<![CDATA[
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+]]>
+	</headHTML>
+	
+	<pageItemHTML>
+<![CDATA[
+<i class="fa fa-{param_icono} {param_tamaño}"></i>
+]]>
+	</pageItemHTML>
+	
+</HTMLWidget>

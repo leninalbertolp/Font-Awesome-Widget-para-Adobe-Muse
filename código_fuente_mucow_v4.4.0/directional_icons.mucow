@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Witget Font Awesome 4.4.0 para Adobe Muse
+Creador: Lenin Peña - http://twitter.com/leninalbertop
+Web: www.leninalbertop.com.ve
+-->
+<HTMLWidget name="Font Awesome 4.4.0" formatNumber="2" localization="none" creator="Lenin Peña" isResizable="true" defaultWidth="32" defaultHeight="32" termsText="Gracias por usar el Widget Font Awesome 4.4.0 Este Widget se ofrece de forma gratuita con licencia Creative Commons Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0). Creador: Lenin Peña ** Web: www.leninalbertop.com.ve">
+	<parameters>
+		<separator/>
+		<info label="CATEGORÍA: DIRECTIONAL ICONS"/>
+		<separator/>
+		<info label="CLICK AQUÍ PARA OBTENER REFERENCIA DE LOS ICONOS" linkURL="http://fontawesome.io/icons/"/>
+		<separator/>
+		<list name="icono" defaultValue="angle-double-down" label="Seleccione un icono">
+		    <value name="angle-double-down" label="angle-double-down"/>
+		    <value name="angle-double-left" label="angle-double-left"/>
+		    <value name="angle-double-right" label="angle-double-right"/>
+		    <value name="angle-double-up" label="angle-double-up"/>
+		    <value name="angle-down" label="angle-down"/>
+		    <value name="angle-left" label="angle-left"/>
+		    <value name="angle-right" label="angle-right"/>
+		    <value name="angle-up" label="angle-up"/>
+		    <value name="arrow-circle-down" label="arrow-circle-down"/>
+		    <value name="arrow-circle-left" label="arrow-circle-left"/>
+		    <value name="arrow-circle-o-down" label="arrow-circle-o-down"/>
+		    <value name="arrow-circle-o-left" label="arrow-circle-o-left"/>
+		    <value name="arrow-circle-o-right" label="arrow-circle-o-right"/>
+		    <value name="arrow-circle-o-up" label="arrow-circle-o-up"/>
+		    <value name="arrow-circle-right" label="arrow-circle-right"/>
+		    <value name="arrow-circle-up" label="arrow-circle-up"/>
+		    <value name="arrow-down" label="arrow-down"/>
+		    <value name="arrow-left" label="arrow-left"/>
+		    <value name="arrow-right" label="arrow-right"/>
+		    <value name="arrow-up" label="arrow-up"/>
+		    <value name="arrows" label="arrows"/>
+		    <value name="arrows-alt" label="arrows-alt"/>
+		    <value name="arrows-h" label="arrows-h"/>
+		    <value name="arrows-v" label="arrows-v"/>
+		    <value name="caret-down" label="caret-down"/>
+		    <value name="caret-left" label="caret-left"/>
+		    <value name="caret-right" label="caret-right"/>
+		    <value name="caret-square-o-down" label="caret-square-o-down"/>
+		    <value name="caret-square-o-left" label="caret-square-o-left"/>
+		    <value name="caret-square-o-right" label="caret-square-o-right"/>
+		    <value name="caret-square-o-up" label="caret-square-o-up"/>
+		    <value name="caret-up" label="caret-up"/>
+		    <value name="chevron-circle-down" label="chevron-circle-down"/>
+		    <value name="chevron-circle-left" label="chevron-circle-left"/>
+		    <value name="chevron-circle-right" label="chevron-circle-right"/>
+		    <value name="chevron-circle-up" label="chevron-circle-up"/>
+		    <value name="chevron-down" label="chevron-down"/>
+		    <value name="chevron-left" label="chevron-left"/>
+		    <value name="chevron-right" label="chevron-right"/>
+		    <value name="chevron-up" label="chevron-up"/>
+		    <value name="exchange" label="exchange"/>
+		    <value name="hand-o-down" label="hand-o-down"/>
+		    <value name="hand-o-left" label="hand-o-left"/>
+		    <value name="hand-o-right" label="hand-o-right"/>
+		    <value name="hand-o-up" label="hand-o-up"/>
+		    <value name="long-arrow-down" label="long-arrow-down"/>
+		    <value name="long-arrow-left" label="long-arrow-left"/>
+		    <value name="long-arrow-right" label="long-arrow-right"/>
+		    <value name="long-arrow-up" label="long-arrow-up"/>
+		</list>
+		<list name="tamaño" defaultValue="fa-3x" label="Seleccione el tamaño">
+		    <value name="fa-lg" label="Lg"/>
+		    <value name="fa-2x" label="2X"/>
+		    <value name="fa-3x" label="3X"/>
+		    <value name="fa-4x" label="4X"/>
+		    <value name="fa-5x" label="5X"/>
+		</list>
+		<separator/>
+		<info label="CLICK AQUÍ PARA DESCARGAR MÁS WIDGETS GRATUITOS" linkURL="http://leninp.ml/1UeMi7w"/>
+		<separator/>
+	</parameters>
+	
+	<headHTML>
+    <![CDATA[
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    ]]>
+	</headHTML>
+	
+	<pageItemHTML>
+    <![CDATA[
+    <i class="fa fa-{param_icono} {param_tamaño}"></i>
+    ]]>
+	</pageItemHTML>
+	
+</HTMLWidget>

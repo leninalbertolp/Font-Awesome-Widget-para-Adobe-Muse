@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Witget Font Awesome 4.4.0 para Adobe Muse
+Creador: Lenin Peña - http://twitter.com/leninalbertop
+Web: www.leninalbertop.com.ve
+-->
+<HTMLWidget name="Font Awesome 4.4.0" formatNumber="2" localization="none" creator="Lenin Peña" isResizable="true" defaultWidth="32" defaultHeight="32" termsText="Gracias por usar el Widget Font Awesome 4.4.0 Este Widget se ofrece de forma gratuita con licencia Creative Commons Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0). Creador: Lenin Peña ** Web: www.leninalbertop.com.ve">
+	<parameters>
+		<separator/>
+		<info label="CATEGORÍA: FORM CONTROL ICONS"/>
+		<separator/>
+		<info label="CLICK AQUÍ PARA OBTENER REFERENCIA DE LOS ICONOS" linkURL="http://fontawesome.io/icons/"/>
+		<separator/>
+		<list name="icono" defaultValue="check-square" label="Seleccione un icono">
+		    <value name="check-square" label="check-square"/>
+		    <value name="check-square-o" label="check-square-o"/>
+		    <value name="circle" label="circle"/>
+		    <value name="circle-o" label="circle-o"/>
+		    <value name="dot-circle-o" label="dot-circle-o"/>
+		    <value name="minus-square" label="minus-square"/>
+		    <value name="minus-square-o" label="minus-square-o"/>
+		    <value name="plus-square" label="plus-square"/>
+		    <value name="plus-square-o" label="plus-square-o"/>
+		    <value name="square" label="square"/>
+		    <value name="square-o" label="square-o"/>
+		</list>
+		<list name="tamaño" defaultValue="fa-3x" label="Seleccione el tamaño">
+		    <value name="fa-lg" label="Lg"/>
+		    <value name="fa-2x" label="2X"/>
+		    <value name="fa-3x" label="3X"/>
+		    <value name="fa-4x" label="4X"/>
+		    <value name="fa-5x" label="5X"/>
+		</list>
+		<separator/>
+		<info label="CLICK AQUÍ PARA DESCARGAR MÁS WIDGETS GRATUITOS" linkURL="http://leninp.ml/1UeMi7w"/>
+		<separator/>
+	</parameters>
+	
+	<headHTML>
+<![CDATA[
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+]]>
+	</headHTML>
+	
+	<pageItemHTML>
+<![CDATA[
+<i class="fa fa-{param_icono} {param_tamaño}"></i>
+]]>
+	</pageItemHTML>
+	
+</HTMLWidget>
