@@ -16,7 +16,7 @@ Esto es solo el código fuente del Widget, si desea descargar el widget para uti
 * Se omitieron los iconos (alias)
 * Iconos organizados por categorías siguiendo el patrón de la [DEMO DE FONT AWESOME](http://fontawesome.io/icons/)
 * Se reescribieron los nombres de los iconos de **Español** a **Ingles** para tener una referencia más clara a la hora de buscar los iconos dentro del Widget
-* Link dentro del Widget que lleva hacia la demo oficial de Font Awesome esto le servira como guía para usar los iconos
+* Link dentro del Widget que lleva hacia la demo oficial de Font Awesome esto le servirá como guía para usar los iconos
 
 **20 de Agostos de 2014**
 * Font Awesome 4.0.1
