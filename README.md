@@ -24,4 +24,4 @@ Esto es solo el código fuente del Widget, si desea descargar el widget para uti
 
 ##Licencia
 
-El Widget y su código fuente se ofrece de forma gratuita con licencia Open Source, Atribución 4.0 Internacional (CC BY 4.0). Si desea comunicarse conmigo por favor visite mi perfil en Twitter [@leninalbertop](http://twitter.com/leninalbertop).
+El Widget y su código fuente, se ofrece de forma gratuita con licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional.
